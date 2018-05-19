@@ -173,5 +173,6 @@ int main()
 	printf("总用时：%lf\n",timeuse);
 	//用计时器计算出来的时间和总连接数 得出来一秒钟服务器所完成的http连接数。
 	printf("平均一秒服务器所能连接的http的个数%d\n",(int)(connect_num/timeuse));
+	printf("hello world\n");
 	return 0;
 }
